@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil Memmory</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <block class="conteneur">
+        <header>
+            <!-- Titre -->
+            <h1>Accueil Memmory</h1>
+
+            <ul class="list-liens">
+                <li class="list-inline-liens"><a href="#">Accueil</a></li>
+                <li class="list-inline-liens" id="loged1"><a href="./register.html">S'inscrire</a></li>
+                <li class="list-inline-liens" id="loged2"><a href="./login.html">Se connecter</a></li>
+                <li class="list-inline-liens" id="loged3"><a href="./login.html">Se Déconnecter</a></li>
+                <li class="list-inline-liens" id="isloged" disabled><a href="./profil.html">Profils</a></li>
+                <li class="list-inline-liens"><a href="./game.html">Jouer</a></li>
+            </ul>
+
+        </header>
+
+        <main>
+
+            <div class="instrucion-block">
+                <p class="p-instruction">Bienvenue sur le Memmory !</p>
+                <p class="p-instruction">Venez jouer avec nous est faites le meilleur score possible 😎.</p>
+
+                <p class="p-instruction-titre">Règles du jeu :</p>
+                <li class="li-instruction">Retourner 2 cartes 🃏. Si les images sont identiques, le jeu laisse les cartes visibles.</li>
+                <li class="li-instruction">Si les images sont différentes ❌, les cartes ce retourne face cachées la ou elle étaient.</li>
+                <li class="li-instruction">La partie est terminée lorque toutes le pairs ont été assemblées par pairs.</li>
+
+                <img class="image-presentation" src="./src/img/presentation-jeux.JPG" alt="Image Présentation"></img>
+
+                <p class="p-instruction">Si vous voulez vous souvenir de votre score, Inscrivez vous via le formulaire -> <a href="./register.html">S'inscrire</a></p>
+                <p class="p-instruction">Le jeux garde les 5 <b>meilleur</b> score</p>
+                <p class="p-instruction">Si vous voulez relancer une partie cliquer sur <b>la barre espace</b></p>
+            </div>
+
+        </main>
+
+        <footer>
+            <!-- Copyright -->
+            <p class="copyright">KillianSb © 2023</p>
+        </footer>
+            
+    </block>
+
+    <script src="./src/js/scriptLoged.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <block class="conteneur">
+        <header>
+            <!-- Titre -->
+            <h1>Création de compte</h1>
+
+            <ul class="list-liens">
+                <li class="list-inline-liens"><a href="./index.html">Accueil</a></li>
+                <li class="list-inline-liens"><a href="./login.html">Se connecter</a></li>
+                <li class="list-inline-liens"><a href="./game.html">Jouer</a></li>
+            </ul>
+
+
+        </header>
+
+        <main>
+
+            <div class="form-block">
+                <p class="p-form-titre">Création d'un compte :</p>
+
+                <div class="form__group field">
+                    <p class="p-form">Nom d'utilisateur :</p>
+                    <input type="input" class="form_name" placeholder="Nom d'utilisateur" name="name" id='name' required />
+                    <p class="p-message-name"></p>
+
+                    <p class="p-form">Adresse mail :</p>
+                    <input type="mail" class="form_mail" placeholder="Adresse mail" name="mail" id='mail' disabled required/>
+                    <p class="p-message-mail"></p>
+
+                    <p class="p-form">Mot de passe :</p>
+                    <input type="password" class="form_password" placeholder="Mot de passe" name="password" id='password' disabled required/>
+                    <p class="p-message-password" id="message-password">Au moins 1 symbole, 1 majuscule, 1 minuscule, 1 chiffre, ainsi que 6 caractères minimum.</p>
+                    <div class="block-level-pwd">
+                        <div class="level-1-pwd" id="level1">
+                            <p class="msg-level">Faible</p>
+                        </div>
+                        <div class="level-2-pwd" id="level2">
+                            <p class="msg-level">Moyen</p>
+                        </div>
+                        <div class="level-3-pwd" id="level3">
+                            <p class="msg-level">Fort</p>
+                        </div>
+                    </div>
+
+                    <p class="p-form">Confirmer le mot de passe :</p>
+                    <input type="password" class="form_password_check" placeholder="Confirmation Mot de passe" name="password_check" id='password_check' disabled required/>
+                    <p class="p-message-password-check"></p>
+
+                    <div class="box-button">
+                        <button class="button-valider" id="button-validation" role="button" disabled><span class="text-valider">Valider</span></button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <!-- Copyright -->
+            <p class="copyright">KillianSb © 2023</p>
+        </footer>
+            
+    </block>
+
+    <script src="./src/js/scriptRegister.js"></script>
+</body>
+</html>

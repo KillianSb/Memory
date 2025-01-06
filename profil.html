@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <block class="conteneur">
+        <header>
+
+            <!-- Titre -->
+            <h1>Profil</h1>
+    
+            <ul class="list-liens">
+                <li class="list-inline-liens"><a href="./index.html">Accueil</a></li>
+                <li class="list-inline-liens" id="loged1"><a href="./register.html">S'inscrire</a></li>
+                <li class="list-inline-liens" id="loged2"><a href="./login.html">Se connecter</a></li>
+                <li class="list-inline-liens" id="loged3"><a href="./login.html">Se Déconnecter</a></li>
+                <li class="list-inline-liens"><a href="./game.html">Jouer</a></li>
+            </ul>
+    
+        </header>
+    
+        <main>
+    
+            <div class="block_profil">
+                <div class="block_infos">
+                    <h1 id="Titre-profil">Profil</h1>
+                    <img id="imageProfil" src="./src/img/user-profil.png" alt="Logo HubSpot"/>
+                    <p id="Name">test</p>
+                    <p id="Mail">test</p>
+                    <button class="button-modif-pwd" id="modif-pwd" role="button">Modifier le mot de passe</button>
+                </div>
+            </div>
+        
+        </main>
+    
+        <footer>
+            <!-- Copyright -->
+            <p class="copyright">KillianSb © 2023</p>
+        </footer>    
+    </block>
+    
+    <script src="./src/js/scriptLoged.js"></script>
+    <script src="./src/js/scriptProfil.js"></script>
+</body>
+</html>

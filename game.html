@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partie Memmory</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <block class="conteneur">
+        <header>
+
+            <!-- Titre -->
+            <h1>Partie Memmory</h1>
+
+            <ul class="list-liens">
+                <li class="list-inline-liens"><a href="./index.html">Accueil</a></li>
+                <li class="list-inline-liens" id="loged1"><a href="./register.html">S'inscrire</a></li>
+                <li class="list-inline-liens" id="loged2"><a href="./login.html">Se connecter</a></li>
+                <li class="list-inline-liens" id="loged3"><a href="./login.html">Se Déconnecter</a></li>
+                <li class="list-inline-liens" id="isloged" disabled><a href="./profil.html">Profils</a></li>
+            </ul>
+
+        </header>
+
+        <main>
+
+            <div class="block-jeux">
+                <div class="block-jeux-instruction">
+                    <p class="p-instruction-jeux">Essayer de réussir le Memmory avec le moins de coup possible !</p>
+                    <p class="p-instruction-jeux" id="compteur">Vous etes a 0 coup!</p>
+                </div>
+
+                <label id="choixImage" for="choixImage">Choix image:</label>
+
+                <select name="image" id="imageSelect">
+                    <option value="alphabet-scrabble">alphabet-scrabble</option>
+                    <option value="animaux">animaux</option>
+                    <option value="animauxAnimes">animauxAnimes</option>
+                    <option value="animauxdomestiques">animauxdomestiques</option>
+                    <option value="chiens">chiens</option>
+                    <option value="dinosauresAvecNom">dinosauresAvecNom</option>
+                    <option value="dinosaures">dinosaures</option>
+                    <option value="memory-legume">memory-legume</option>
+                    <option value="marqueFood">marqueFood</option>
+                </select>
+
+                <div class="tableau-jeux" id="tableau-jeux">
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="0" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="1" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="2" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="3" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="4" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="5" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="6" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="7" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="8" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="9" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="10" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                    <div class="image-jeux-block">
+                        <img class="image-jeux" id="11" src="./src/img/question.svg" alt="Image Présentation"></img>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <!-- Copyright -->
+            <p class="copyright">KillianSb © 2023</p>
+        </footer>
+        
+    </block>
+
+    <script src="./src/js/scriptLoged.js"></script>
+    <script src="./src/js/scriptGame.js"></script>
+</body>
+</html>

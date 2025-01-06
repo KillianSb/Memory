@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <block class="conteneur">
+        <header>
+            <!-- Titre -->
+            <h1>Connection</h1>
+
+            <ul class="list-liens">
+                <li class="list-inline-liens"><a href="./index.html">Accueil</a></li>
+                <li class="list-inline-liens"><a href="./register.html">S'inscrire</a></li>
+                <li class="list-inline-liens"><a href="./game.html">Jouer</a></li>
+            </ul>
+
+        </header>
+
+        <main>
+
+            <div class="form-block">
+                <p class="p-form-titre">Connexion :</p>
+
+                <div class="form__group field">
+                    <p class="p-form">Adresse mail :</p>
+                    <input type="input" class="form_mail" placeholder="Adresse mail" name="mail" id='mail' required />
+
+                    <p class="p-form">Mot de passe :</p>
+                    <input type="password" class="form_password" placeholder="Mot de passe" name="password" id='password' required />
+
+                    <button class="button-valider" id="button-validation" role="button"><span class="text">Valider</span></button>
+                </div>
+            </div>
+        
+
+        </main>
+
+        <footer>
+            <!-- Copyright -->
+            <p class="copyright">KillianSb © 2023</p>
+        </footer>
+
+    </block>
+
+    <script src="./src/js/scritpLogin.js"></script>
+</body>
+</html>
