@@ -185,14 +185,20 @@ function compartId() {
                     console.log("Pas connecter donc pas d'enregistrement du score ! ");
                 }
 
+                setTimeout(() => {
+                    jeuxOn = false;
+                    document.getElementById("imageSelect").removeAttribute("disabled");
+                    location.reload();
+                }, "4000");
+
                 // Appuie sur "espace" pour relancer
-                document.addEventListener("keydown", function(event) {
+                /*document.addEventListener("keydown", function(event) {
                     if (event.code === "Space") {
                         jeuxOn = false;
                         document.getElementById("imageSelect").removeAttribute("disabled");
                       location.reload();
                     }
-                });
+                });*/
             }
         }
         ClickValue = [];
