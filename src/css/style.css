@@ -1,0 +1,409 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background1.jpg");
+    background-size: 100% 1298px;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: rgb(209 183 46);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+/* Partie Header */
+.conteneur {
+    position: relative;
+    min-height: 200vh;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(250 228 127);
+    font-family: 'Bruno Ace SC', cursive;
+    margin: 50px;
+}
+
+.list-liens{
+    display: block;
+    text-align: center;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-inline-liens a {
+    color: rgb(209 183 46);
+    text-shadow: 1px 1px 2px rgb(0 0 0);
+}
+
+.list-inline-liens {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 7px;
+    font-family: 'Bruno Ace SC', cursive;
+    background-color: rgba(146, 146, 146, 0.521);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+
+/* Partie Main */
+
+.instrucion-block {
+    display: block;
+    text-align: center;
+    margin: 5% 20%;
+    padding: 10px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 30px;
+}
+
+.p-instruction {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.p-instruction-titre {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 20px;
+    color: rgb(209 183 46);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.li-instruction{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+b {
+    color: rgb(209 183 46);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.image-presentation {
+    margin: 20px;
+}
+
+/* Partie form */
+.form-block {
+    text-align: center;
+    border-radius: 30px;
+    margin: 5% 20%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    font-size: 1.5rem;
+    background-color:#222222;
+}
+
+.p-form {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 15px;
+    color: rgb(209 183 46);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.p-form-titre {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 20px;
+    color: rgb(209 183 46);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form_name, .form_mail, .form_password, .form_password_check {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid rgb(209 183 46);
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.p-message-password {
+    color: white;
+    font-size: 15px;
+    margin: 5px 0 20px 0;
+}
+
+.block-level-pwd {
+    display: flex;
+}
+
+.level-1-pwd {
+    display: none;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(68 255 7);
+    border-width : 3px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 15px;
+    color: white;
+}
+
+.level-2-pwd {
+    display: none;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(255 167 7);
+    border-width : 3px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 15px;
+    color: white;
+}
+
+.level-3-pwd {
+    display: none;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(255, 7, 7);
+    border-width : 3px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 15px;
+    color: white;
+}
+
+/* boutton valider */
+.box-button {
+    width: 100%;
+}
+.button-valider {
+    margin: 60px;
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button-valider:active,
+.button-valider:hover {
+    outline: 0;
+}
+
+.button-valider span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-valider:hover span {
+    background: none;
+}
+
+.text-valider {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+@media (min-width: 1100px) {
+    .button-valider {
+        width: 80%;
+    }
+}
+@media (max-width: 1100px) {
+    .button-valider {
+        font-size: 24px;
+        min-width: 55%;
+    }
+}
+
+/* Partie Profils */
+.block_profil {
+    display: block;
+    text-align: center;
+    margin: 170px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 30px;
+}
+
+.block_infos {
+    display: block;
+    margin: 5px;
+}
+
+#Titre-profil {
+    font-size: 25px;
+    margin: 25px;
+    color: white;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+#modif-pwd {
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);    
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    color: #FFFFFF;
+    font-family: 'Bruno Ace SC', cursive;
+    padding: 15px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin: 25px;
+    display: block;
+}
+
+#modif-pwd:hover {
+    color: #49d612;
+}
+
+#imageProfil {
+    width: 100px;
+    height: 100px;
+    margin: 35px;
+}
+
+#Name, #Mail, #Pwd {
+    font-size: 15px;
+    margin: 20px;
+    color: rgb(209 183 46);
+    font-family: 'Bruno Ace SC', cursive;
+    display: block;
+    text-align: center;
+    
+}
+
+/* Partie Jeux */
+.block-jeux {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin: 5% 10%;
+    padding: 10px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 30px;
+}
+
+.block-jeux-instruction {
+    display: block;
+    margin: 5px;
+}
+
+.p-instruction-jeux {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#choixImage {
+    font-family: 'Bruno Ace SC', cursive;
+    color: rgb(255, 255, 255);
+    margin: 0 25px 0 25px;
+}
+
+select {
+    border-radius: 30px;
+    margin: 25px 25px 25px 5px;
+}
+
+option {
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.tableau-jeux {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+@media (max-width: 1480px) {
+    .tableau-jeux {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 750px) {
+    .tableau-jeux {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.image-jeux-block {
+    margin: 5px;
+    background-size: cover;
+    border-radius: 30px;
+    width : auto;
+    height : auto;
+    text-align: center;
+}
+
+.image-jeux {
+    /* width: 172px;
+    height: 172px; */
+    width: 281px;
+    height: 210px;
+    border-radius: 30px;
+}
+
+@media (max-width: 1100px) {
+    .image-jeux {
+        width: 185px;
+        height: 140px;
+    }
+}
+
+/* Partie Footer  */
+footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.copyright {
+    display: block;
+    background-color: black;
+    margin: 60px 0;
+    padding: 30px;
+    text-align: center;
+    color: rgb(209 183 46);
+    text-shadow: 1px 1px 2px rgb(0 0 0);
+    font-family: 'Bruno Ace SC', cursive;
+}
